@@ -4,18 +4,12 @@
              x:Class="Amtgard_Pell_a_thon.MainPage">
 
     <StackLayout>        
-        <Label Text="Amtgard Pell-a-thon" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+        <Label Text="Amtgard Pell-a-thon" FontSize="Title" HorizontalTextAlignment="Center" Padding="30,10,30,10"/>
+        <Label Text="Set callout interval (Seconds):" FontSize="20" HorizontalTextAlignment="Center" Padding="30,0,30,0"/>
+        <Entry x:Name="txtInterval" Placeholder="10" Text="10" ClearButtonVisibility="WhileEditing" Keyboard="Numeric" HorizontalTextAlignment="Center" Margin="90,10,90,10"/>
+        <Button x:Name="btnStartStop" Text="Start" Margin="90,10,90,10" Clicked="btnStartStop_Clicked"/>
+        <Label Text="Last Callout" FontSize="20" HorizontalTextAlignment="Center" Padding="30,0,30,0"/>
+        <Label x:Name="lblLastCallout" Text="" FontSize="20" HorizontalTextAlignment="Center" Padding="30,0,30,0"/>
     </StackLayout>
 
 </ContentPage>

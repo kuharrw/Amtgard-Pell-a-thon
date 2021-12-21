@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amtgard Pell-a-thon.Android", "Amtgard Pell-a-thon.Android\Amtgard Pell-a-thon.Android.csproj", "{A1460F5A-F6EC-4FA5-905B-6E129AF1ED85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amtgard Pell-a-thon", "Amtgard Pell-a-thon\Amtgard Pell-a-thon.csproj", "{686D9555-3571-4BD2-960E-6639DCE09B5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1460F5A-F6EC-4FA5-905B-6E129AF1ED85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1460F5A-F6EC-4FA5-905B-6E129AF1ED85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1460F5A-F6EC-4FA5-905B-6E129AF1ED85}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A1460F5A-F6EC-4FA5-905B-6E129AF1ED85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1460F5A-F6EC-4FA5-905B-6E129AF1ED85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1460F5A-F6EC-4FA5-905B-6E129AF1ED85}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{686D9555-3571-4BD2-960E-6639DCE09B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686D9555-3571-4BD2-960E-6639DCE09B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686D9555-3571-4BD2-960E-6639DCE09B5A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{686D9555-3571-4BD2-960E-6639DCE09B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686D9555-3571-4BD2-960E-6639DCE09B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686D9555-3571-4BD2-960E-6639DCE09B5A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B35EFDF6-69A8-4255-BA8B-609E70B5107C}
+	EndGlobalSection
+EndGlobal
